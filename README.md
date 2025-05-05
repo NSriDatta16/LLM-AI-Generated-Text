@@ -15,7 +15,7 @@ The notebook performs the following steps:
 
 **Prediction:** Generates predictions for the test dataset and saves the results.
 
-**Key Features**
+## Key Features
 **BERT Model:** Utilizes the bert-base-uncased pre-trained model for text classification.
 
 **Text Cleaning:** Implements preprocessing steps to enhance model performance.
@@ -23,7 +23,7 @@ The notebook performs the following steps:
 **High Accuracy:** 
 Achieves high validation accuracy (99.6%) in distinguishing between human and AI-generated text.
 
-**Requirements**
+## Requirements
 To run this notebook, you need the following libraries:
 
 1.pandas
@@ -49,7 +49,7 @@ To run this notebook, you need the following libraries:
 bash
 pip install pandas numpy matplotlib seaborn nltk scikit-learn transformers torch
 Usage
-**Data Preparation:**
+## Data Preparation:
 
 Ensure the datasets (train_essays.csv and test_essays.csv) are in the correct directory.
 
@@ -67,7 +67,7 @@ Adjust hyperparameters such as batch_size, learning_rate, and epochs in the trai
 
 Modify the text cleaning function to include additional preprocessing steps if needed.
 
-**Results**
+## Results
 The model achieves a validation accuracy of 99.6%, demonstrating strong performance in detecting AI-generated text. The predictions for the test dataset are saved in submission.csv.
 
 **Future Improvements**

@@ -1,6 +1,6 @@
 This project focuses on detecting AI-generated text using the BERT (Bidirectional Encoder Representations from Transformers) model. The goal is to classify essays as either human-written or AI-generated based on their textual content.
 
-*Project Overview*
+# Project Overview
 The notebook performs the following steps:
 
 **Data Loading:** Loads training and test datasets containing essays labeled as human-written or AI-generated.

@@ -3,13 +3,13 @@ This project focuses on detecting AI-generated text using the BERT (Bidirectiona
 **Project Overview**
 The notebook performs the following steps:
 
-**Data Loading:** Loads training and test datasets containing essays labeled as human-written or AI-generated.
+** Data Loading:** Loads training and test datasets containing essays labeled as human-written or AI-generated.
 
-**Data Exploration:** Analyzes the dataset structure and visualizes the distribution of labels.
+** Data Exploration:** Analyzes the dataset structure and visualizes the distribution of labels.
 
-**Text Preprocessing:** Cleans the text by removing punctuation, converting to lowercase, and eliminating stopwords.
+** Text Preprocessing:** Cleans the text by removing punctuation, converting to lowercase, and eliminating stopwords.
 
-**Model Training:** Uses the BERT model for sequence classification to distinguish between human and AI-generated text.
+** Model Training:** Uses the BERT model for sequence classification to distinguish between human and AI-generated text.
 
 **Evaluation:** Evaluates the model's performance on a validation set.
 

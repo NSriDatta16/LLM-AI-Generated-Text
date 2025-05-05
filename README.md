@@ -16,66 +16,67 @@ The notebook performs the following steps:
 **Prediction:** Generates predictions for the test dataset and saves the results.
 
 **Key Features**
-BERT Model: Utilizes the bert-base-uncased pre-trained model for text classification.
+**BERT Model:** Utilizes the bert-base-uncased pre-trained model for text classification.
 
-Text Cleaning: Implements preprocessing steps to enhance model performance.
+**Text Cleaning:** Implements preprocessing steps to enhance model performance.
 
-High Accuracy: Achieves high validation accuracy (99.6%) in distinguishing between human and AI-generated text.
+**High Accuracy:** 
+Achieves high validation accuracy (99.6%) in distinguishing between human and AI-generated text.
 
-Requirements
+**Requirements**
 To run this notebook, you need the following libraries:
 
-pandas
+1.pandas
 
-numpy
+2.numpy
 
-matplotlib
+3.matplotlib
 
-seaborn
+4.seaborn
 
-re
+5.re
 
-nltk
+6.nltk
 
-scikit-learn
+7.scikit-learn
 
-transformers (Hugging Face)
+8.transformers (Hugging Face)
 
-torch (PyTorch)
+9.torch (PyTorch)
 
-Install the required packages using:
+**Install the required packages using:**
 
 bash
 pip install pandas numpy matplotlib seaborn nltk scikit-learn transformers torch
 Usage
-Data Preparation:
+**Data Preparation:**
 
 Ensure the datasets (train_essays.csv and test_essays.csv) are in the correct directory.
 
 The datasets should include columns for id, prompt_id, text, and generated (label).
 
-Running the Notebook:
+**Running the Notebook:**
 
 Execute the cells in sequence to load data, preprocess text, train the model, and generate predictions.
 
 The final predictions are saved to submission.csv.
 
-Customization:
+**Customization:**
 
 Adjust hyperparameters such as batch_size, learning_rate, and epochs in the training loop for optimization.
 
 Modify the text cleaning function to include additional preprocessing steps if needed.
 
-Results
+**Results**
 The model achieves a validation accuracy of 99.6%, demonstrating strong performance in detecting AI-generated text. The predictions for the test dataset are saved in submission.csv.
 
-Future Improvements
+**Future Improvements**
 Experiment with other pre-trained models (e.g., RoBERTa, GPT-2) for comparison.
 
 Incorporate additional features (e.g., sentence length, word frequency) to enhance detection.
 
 Deploy the model as an API for real-time text classification.
 
-License
+**License**
 This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it as needed.
 
